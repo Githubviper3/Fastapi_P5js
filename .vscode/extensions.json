@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "samplavigne.p5-vscode",
+        "ritwickdey.liveserver",
+        "acidic9.p5js-snippets",
+        "esbenp.prettier-vscode",
+        "ms-vscode.remote-repositories",
+        "github.remotehub"
+    ]
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Project</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', path='/script.js') }}"></script>
+</head>
+<body>
+
+    <div class="MainCard">
+        <h1>W3Schools</h1>
+        <div class="grid-container">
+          <div>
+            <a href="https://w3schools.com/" target="_blank">
+              <img src="{{ url_for('static', path='/W3S_Logo.png') }}" rel="noopener noreferrer"/>
+            </a>
+          </div>
+          <div>
+            <p>
+              W3Schools is the best website for learning how to code. It has
+              tutorials for many languages such as Python and Javascript as well
+              as CSS and HTML.
+            </p>
+          </div>
+          <div>
+            <p>
+              This image will send you to the search bar of W3Schools. This
+              button will take you to a random tutorial page of W3Schools.
+            </p>
+            <button id="Random" onclick="openRandomLink()">Go</button>
+          </div>
+      </div>
+</body>
+</html>
